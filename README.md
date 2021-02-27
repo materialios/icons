@@ -7,7 +7,7 @@
 * MenuIcon
 
 ## Installation
-```
+```s
 npm i @materialios/icons
 ```
 
