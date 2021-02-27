@@ -5,7 +5,6 @@ import MenuIcon from './icons/MenuIcon'
 
 export {
   IconWrapper,
-  // list icons
   ArrowBackIcon,
   MenuIcon
 }

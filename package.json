@@ -1,12 +1,12 @@
 {
   "name": "@materialios/icons",
-  "version": "0.1.4",
+  "version": "0.1.15",
   "description": "@materialios's icons",
   "private": false,
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf lib && npx babel src --out-dir lib && npm --no-git-tag-version version patch"
+    "build": "rm -rf lib && npx babel src --out-dir lib && npx include-css --origin=./src --destination=./lib && npm --no-git-tag-version version patch"
   },
   "repository": {
     "type": "git",
@@ -45,6 +45,7 @@
   "devDependencies": {
     "@babel/cli": "^7.13.0",
     "@babel/core": "^7.13.1",
-    "@babel/preset-react": "^7.12.13"
+    "@babel/preset-react": "^7.12.13",
+    "@mnrendra/include-css": "^0.1.6"
   }
 }
