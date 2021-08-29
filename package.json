@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mnrendra/icons.git"
+    "url": "git+https://github.com/materialios/icons.git"
   },
   "keywords": [
     "@materialios/icons",
@@ -26,9 +26,9 @@
   "author": "Muhammad Rendra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mnrendra/icons/issues"
+    "url": "https://github.com/materialios/icons/issues"
   },
-  "homepage": "https://github.com/mnrendra/icons#readme",
+  "homepage": "https://github.com/materialios/icons#readme",
   "babel": {
     "presets": [
       [
