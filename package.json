@@ -1,6 +1,6 @@
 {
   "name": "@materialios/icons",
-  "version": "0.1.15",
+  "version": "0.1.17",
   "description": "@materialios's icons",
   "private": false,
   "main": "lib/index.js",
