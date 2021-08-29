@@ -1,6 +1,6 @@
 import IconWrapper from '../IconWrapper'
 
-export default (props = {}) => {
+const ArrowBackIcon = (props = {}) => {
   return (
     <IconWrapper props={props}>
       <svg className='ArrowBackIcon' fill='inherit' width='24px' height='24px'>
@@ -10,3 +10,5 @@ export default (props = {}) => {
     </IconWrapper>
   )
 }
+
+export default ArrowBackIcon

@@ -1,6 +1,6 @@
 import IconWrapper from '../IconWrapper'
 
-export default (props = {}) => {
+const MenuIcon = (props = {}) => {
   return (
     <IconWrapper props={props}>
       <svg className='MenuIcon' fill='inherit' width='24px' height='24px'>
@@ -10,3 +10,5 @@ export default (props = {}) => {
     </IconWrapper>
   )
 }
+
+export default MenuIcon
